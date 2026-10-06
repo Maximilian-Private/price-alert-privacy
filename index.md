@@ -1,44 +1,27 @@
 ---
-title: Privacy Policy - Price Alert
+title: Price Alert
 ---
 
-# Privacy Policy — Price Alert
+# Price Alert
 
-Last updated: October 4, 2026
+Price Alert watches the products you care about and sends a Chrome notification when the price reaches your target.
 
-Price Alert ("the extension") helps you track product prices and get notified when they drop. This policy explains what data the extension handles.
+## How it works
 
-## What is stored, and where
+1. Browse any shop. When you open a product page, click **Add to Price Alert**.
+2. Pick a target price, or tell it to alert you on any price drop.
+3. The extension checks your items on a schedule you choose and notifies you when the price hits your target. Click the notification to open the product.
 
-Everything the extension saves is stored locally in your browser (`chrome.storage.local`):
+Your watchlist stays on your computer. There is no account and no sign-up.
 
-- **Watchlist:** product page links, product names, target prices, the prices we found, a price history, and whether you turned on email alerts for an item.
-- **Settings:** your email address and email webhook URL (if you enter them), your Amazon Associates tag and affiliate redirect template (if you enter them), and how often prices are checked.
+## How it makes money
 
-The developer does not run servers that receive or store this data. Nothing is synced to an account.
+Deal links opened from Price Alert may earn a commission for the developer at no extra cost to you. The commission doesn't change the price you pay or which deal you see.
 
-## Requests the extension makes
+## Privacy
 
-- **Product pages:** to check a price, the extension requests the product page you added from the store's website, without cookies or your login. The store can see these requests, as with any visit to its site.
-- **Email alerts (optional):** when you turn on email alerts for an item and enter an email address and webhook, the extension sends your email address, the product link, the price, and the alert reason to the webhook URL you entered. Only that endpoint receives this data. Its own privacy policy governs what it does with it.
-- **Deal links:** when you open a deal from the extension, the link is sent to the store, along with the developer's affiliate ID, so the developer earns a commission if you buy. Affiliate networks and stores may set cookies on your browser when you follow a link.
-
-## What the extension does not do
-
-- It does not collect analytics or usage statistics.
-- It does not sell or share your data with anyone.
-- On each page you visit, a small script checks the page locally to decide whether to show the "Add to Price Alert" button. That check stays in your browser; the page content is not sent anywhere unless you click the button.
-
-## Affiliate disclosure
-
-Deal links opened from this extension may earn the developer a commission at no extra cost to you.
-
-## Your control
-
-- Remove any item from the watchlist at any time.
-- Clear your email address and webhook in the options page to stop email alerts.
-- Uninstalling the extension removes all of its locally stored data.
+Everything the extension stores is kept in your browser. See the full [privacy policy](/privacy/) for what is stored, what is sent, and to whom.
 
 ## Contact
 
-Questions about this policy: maximilian.muennighoff@gmail.com
+Questions or feedback: maximilian.muennighoff@gmail.com
