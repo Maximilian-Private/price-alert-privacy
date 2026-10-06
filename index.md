@@ -21,7 +21,7 @@ The developer does not run servers that receive or store this data. Nothing is s
 
 - **Product pages:** to check a price, the extension requests the product page you added from the store's website, without cookies or your login. The store can see these requests, as with any visit to its site.
 - **Email alerts (optional):** when you turn on email alerts for an item and enter an email address and webhook, the extension sends your email address, the product link, the price, and the alert reason to the webhook URL you entered. Only that endpoint receives this data. Its own privacy policy governs what it does with it.
-- **Deal links:** when you open a deal from the extension, the link is sent to the store, along with your affiliate ID if you have entered one. Affiliate networks and stores may set cookies on your browser when you follow a link.
+- **Deal links:** when you open a deal from the extension, the link is sent to the store, along with the developer's affiliate ID, so the developer earns a commission if you buy. Affiliate networks and stores may set cookies on your browser when you follow a link.
 
 ## What the extension does not do
 
